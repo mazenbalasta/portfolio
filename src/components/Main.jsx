@@ -6,7 +6,7 @@ import { FaGitlab } from 'react-icons/fa6'
 const Main = () => {
   return (
     <div id='main'>
-        <img className='w-full h-screen object-cover object-center' src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1420&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className='w-full h-screen object-cover object-center' src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/5'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                 <h1 className='text-white sm:text-5xl text-4xl font-bold'>I'm Mazen Balasta</h1>
