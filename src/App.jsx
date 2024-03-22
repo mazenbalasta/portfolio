@@ -13,7 +13,7 @@ function App() {
         <Sidenav />
         <Main />
       </div>
-      <div className='bg-gray-400'>
+      <div className='bg-gray-600'>
         <Work />
         <Projects />
         <Resume />
