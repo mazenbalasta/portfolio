@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import { FaGithubSquare, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 import { FaGitlab } from 'react-icons/fa6'
 
 const Main = () => {
@@ -29,10 +29,15 @@ const Main = () => {
                 />
                 </h2>
                 <div className='text-white flex justify-between pt-6 max-w-[200px] w-full'>
-                    <FaGitlab className='cursor-pointer' size={20}/>
-                    <FaGithubSquare  className='cursor-pointer' size={20} />
-                    <FaInstagram className='cursor-pointer' size={20}/>
-                    <FaLinkedin className='cursor-pointer' size={20}/>
+                    <a href="https://github.com/mazenbalasta" target="_blank" rel="noopener noreferrer">
+                        <FaGithubSquare  className='cursor-pointer' size={20} />
+                    </a>
+                    <a href="https://gitlab.com/mznbal17" target="_blank" rel="noopener noreferrer">
+                        <FaGitlab className='cursor-pointer' size={20}/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mazen-balasta/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className='cursor-pointer' size={20}/>
+                    </a>
                 </div>
             </div>
         </div>
