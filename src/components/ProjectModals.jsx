@@ -84,7 +84,7 @@ const ZcdModal = ({ closeModal }) => {
         </div>
         <p className='mt-1 text-gray-100 font-semibold'>Click
           <a
-          href="https://github.com/mazenbalasta/never-left-behind"
+          href="https://github.com/mazenbalasta/zen-car-dealership"
           target="_blank"
           rel="noopener noreferrer"
           className='text-blue-900 font-semibold hover:underline'> here </a>
