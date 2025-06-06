@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import About from './components/About'
 import DarkModeToggle from './components/DarkModeToggle'
 import ScrollToTop from './components/ScrollToTop'
+import FloatingContact from './components/FloatingContact'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       </div>
       <DarkModeToggle />
       <ScrollToTop />
+      <FloatingContact />
     </>
   )
 }

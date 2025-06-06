@@ -4,12 +4,18 @@ const DarkModeToggle = () => {
   const [dark, setDark] = useState(false);
 
   useEffect(() => {
+    const stored = localStorage.getItem('prefers-dark') === 'true';
+    setDark(stored);
+  }, []);
+
+  useEffect(() => {
     const root = window.document.documentElement;
     if (dark) {
       root.classList.add('dark');
     } else {
       root.classList.remove('dark');
     }
+    localStorage.setItem('prefers-dark', dark);
   }, [dark]);
 
   return (
