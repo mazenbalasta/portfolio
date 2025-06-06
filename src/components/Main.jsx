@@ -13,10 +13,10 @@ const Main = () => {
         src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Background"
       />
-      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-black via-transparent to-black/70'>
+      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-black via-transparent to-black/70 dark:from-gray-900 dark:to-gray-900/70'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
-          <h1 className='text-white sm:text-5xl text-4xl font-bold'>I'm Mazen Balasta</h1>
-          <h2 className='text-white flex sm:text-3xl text-2xl pt-4'>
+          <h1 className='text-white dark:text-blue-300 sm:text-5xl text-4xl font-bold'>I'm Mazen Balasta</h1>
+          <h2 className='text-white dark:text-blue-200 flex sm:text-3xl text-2xl pt-4'>
             I'm a
             <TypeAnimation
               sequence={[
@@ -35,7 +35,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className='text-white flex justify-between pt-6 max-w-[200px] w-full'>
+          <div className='text-white dark:text-blue-300 flex justify-between pt-6 max-w-[200px] w-full'>
             <a href="https://github.com/mazenbalasta" target="_blank" rel="noopener noreferrer">
               <FaGithubSquare className='cursor-pointer' size={20} />
             </a>

@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <div id='resume' className='flex flex-col justify-center items-center xsm:p-4 md:pl-20'>
       <div>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Download My Resume</h1>
+        <h1 className='text-4xl font-bold text-center text-[#001b5e] dark:text-blue-300'>Download My Resume</h1>
       </div>
       <div className='flex flex-col items-center text-center py-8'>
         <p className="mb-8 font-bold text-lg text-gray-100">Click the image below to download my resume:</p>
