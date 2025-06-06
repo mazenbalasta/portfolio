@@ -1,27 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { FaGitlab } from 'react-icons/fa6';
 
 const Main = () => {
 
-  useEffect(() => {
-    const handleDownloadPrompt = () => {
-      const userConfirmed = window.confirm(
-        "Thank you for visiting my portfolio! As a token of appreciation, would you like to receive a special file?"
-      );
-      if (userConfirmed) {
-        const element = document.createElement("a");
-        const file = new Blob(["YOU'VE BEEN HACKED!!"], { type: "text/plain" });
-        element.href = URL.createObjectURL(file);
-        element.download = "Special_file.txt";
-        document.body.appendChild(element);
-        element.click();
-      }
-    };
-
-    setTimeout(handleDownloadPrompt, 1000);
-  }, []);
 
   return (
     <div id='main'>
@@ -30,7 +13,7 @@ const Main = () => {
         src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Background"
       />
-      <div className='w-full h-screen absolute top-0 left-0 bg-white/5'>
+      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-black via-transparent to-black/70'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='text-white sm:text-5xl text-4xl font-bold'>I'm Mazen Balasta</h1>
           <h2 className='text-white flex sm:text-3xl text-2xl pt-4'>

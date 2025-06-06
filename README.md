@@ -1,8 +1,25 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal portfolio built with **React** and **Vite** styled using **TailwindCSS**. It showcases work experience, recent projects, and provides a contact form.
 
-Currently, two official plugins are available:
+### Available Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `npm run dev` – start the development server
+- `npm run build` – generate a production build
+- `npm run preview` – preview the built app
+
+The repository is intentionally lightweight and contains no backend code. Dependencies are listed in `package.json`.
+
+### Structure
+
+```
+src/
+ ├── assets/       # images and PDF resume
+ ├── components/   # React components
+ ├── App.jsx       # root component
+ └── main.jsx      # entry point
+```
+
+### Notes
+
+ESLint is configured via `.eslintrc.cjs`. Running `npm run lint` may require installing dependencies with `npm install` first.
