@@ -2,6 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { FaGitlab } from 'react-icons/fa6';
+import QuoteWidget from './QuoteWidget';
 
 const Main = () => {
 
@@ -46,7 +47,15 @@ const Main = () => {
               <FaLinkedin className='cursor-pointer' size={20} />
             </a>
           </div>
+          <QuoteWidget />
         </div>
+        <a
+          href='#work'
+          className='absolute bottom-10 left-1/2 -translate-x-1/2 text-white animate-bounce'
+          aria-label='Scroll Down'
+        >
+          ↓
+        </a>
       </div>
     </div>
   );
